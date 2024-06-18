@@ -9,26 +9,26 @@
 
 <!-- Schmatic -->
 ## Schmatic
-* Can be enabled or disbled by driving enable pin of the design
-* Can shift to the left as well as right when direction is driven
+* Can be enabled or disbled by driving enable pin of the design (enable=0 : disbled / enable=1 : enabled)
+* Can shift to the left as well as right when direction is driven (direction=0 : shift left / direction=1 : shift right)
 * If restn is pulled low, it will reset the shift register and output will become 0
 * Input data value of the shift register can be controlled by indata pin
-![image]()
+![image](https://github.com/trista-csee/Nbit_Bidirectional_Shift_Register/blob/main/Schmatic.png)
 
 <!-- Simulation -->
 ## Simulation
-* shift register is enabled
-![image]()
+* shift register is enabled (enable=0 : disbled / enable=1 : enabled)
+![image](https://github.com/trista-csee/Nbit_Bidirectional_Shift_Register/blob/main/Simulation_enable.png)
 
-* shift register shifts its direction
-![image]()
+* shift register shifts its direction (direction=0 : shift left / direction=1 : shift right)
+![image](https://github.com/trista-csee/Nbit_Bidirectional_Shift_Register/blob/main/Simulation_direction.png)
 
 * inputdata pin remains constant
-![image]()
+![image](https://github.com/trista-csee/Nbit_Bidirectional_Shift_Register/blob/main/Simulation_indata.png)
 
-<!-- Display -->
-## Display
-![image]()
+<!-- Monitor -->
+## Monitor
+![image](https://github.com/trista-csee/Nbit_Bidirectional_Shift_Register/blob/main/Monitor.png)
 
 <!-- LICENSE -->
 ## License
@@ -43,7 +43,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 吳華楨 Trista Wu - trista.cs11@nycu.edu.tw
 
-Project Link: []()
+Project Link: [https://github.com/trista-csee/Nbit_Bidirectional_Shift_Register](https://github.com/trista-csee/Nbit_Bidirectional_Shift_Register)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
