@@ -7,8 +7,8 @@
 <!-- PROJECT Name -->
 <h1 align="center">Design a bidirectional shift register with parameterized width</h1>
 
-<!-- Schmatic -->
-## Schmatic
+<!-- Schematic -->
+## Schematic
 * Can be enabled or disbled by driving enable pin of the design (enable=0 : disbled / enable=1 : enabled)
 * Can shift to the left as well as right when direction is driven (direction=0 : shift left / direction=1 : shift right)
 * If restn is pulled low, it will reset the shift register and output will become 0
